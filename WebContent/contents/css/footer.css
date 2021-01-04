@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+body {
+    margin: 0; /* 리셋을 하지 않은 경우 추가 */
+}
+.footer,footer {
+	position: fixed;
+    clear: both;
+    top:85%;
+    width: 100%;
+    border-top: 5px solid #cdcdcd;
+    z-index: 9;
+    list-style:none;
+}
+
+.logo {
+	position:fixed;
+    left: 5%;
+}
+
+.footerField {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 15px;
+    list-style:none;
+}
+
+/* logo {
+    float: left;
+    width: 204px;
+    margin-top: 7px;
+    text-align: center;
+    list-style:none;
+} */
+
+.copyright {
+	position:fixed;
+    list-style:none;
+    left: 40%;
+    bottom: 5%;
+}
+
+.address {
+    height: 18px;
+    line-height: 18px;
+    font-size: 11px;
+    font-style: normal;
+    color: #a1a1a1;
+    list-style:none;
+}

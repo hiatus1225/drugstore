@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+.contents{position: fixed;
+    left: 45%;
+    top: 30%;
+    width: 60%;
+    background-color: #fff;
+    box-shadow: 0 0 6px rgba(0,0,0,0);
+    z-index: 100}
+   
+/* '.push'는 'footer'와 높이가 같아야 한다. */
+/*  a { text-decoration:none !important } a:hover { text-decoration:none !important }*/
+a { text-decoration:none }
